@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Logo from '../../content/images/logo.png';
 import Links from "../Utilities/Links";
-import { useHistory, useLocation } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
+import { generateTitle } from "../../utility/Common";
 
 const Header = (props) => {
 
@@ -10,6 +10,14 @@ const Header = (props) => {
     const location = useLocation();
 
     useEffect(() => {
+
+        const pathName = location.pathname;
+
+        console.log(generateTitle(pathName));
+
+        document.title = generateTitle(pathName);
+
+
         if (location.pathname.substring(1).length > 0) {
             setHeaderClass('black-header');
         } else {
