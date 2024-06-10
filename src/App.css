@@ -365,3 +365,11 @@ header.black-header .navbar-right {
     color: inherit;
     cursor: pointer;
 }
+
+.footer-a>a {
+    color: #fff;
+}
+
+.footer-a>a:hover {
+    text-decoration: none;
+}

@@ -24,15 +24,29 @@ const Footer = (props) => {
                         <tbody>
                             <tr>
                                 <td><Icons icon='map' /></td>
-                                <td><p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p></td>
+                                <td>
+                                    <p>
+                                        <b>The Luxury Company</b>
+                                        <br />
+                                        Next to Adidas Showroom, Keating Road, Shillong 793001
+                                    </p>
+                                </td>
                             </tr>
                             <tr>
                                 <td><Icons icon='email' /></td>
-                                <td><p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p></td>
+                                <td>
+                                    <p className='footer-a'>
+                                        <a href='mailto:theluxurycompanyinfo@gmail.com' target='_blank'>theluxurycompanyinfo@gmail.com</a>
+                                    </p>
+                                </td>
                             </tr>
                             <tr>
                                 <td><Icons icon='phone' /></td>
-                                <td><p>8652248919</p></td>
+                                <td>
+                                    <p className='footer-a'>
+                                        <a href='tel:9774080800' target='_blank'>9774080800</a> / <a href='tel:8794716620' target='_blank'>8794716620</a> / <a href='tel:8794713320' target='_blank'>8794713320</a>
+                                    </p>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
