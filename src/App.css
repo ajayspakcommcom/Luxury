@@ -33,10 +33,20 @@ header {
 #myCarousel {
     margin-top: 0;
     bottom: 52px;
+    min-height: 100vh;
+}
+
+#myCarousel .carousel-inner {
+    min-height: 100vh;
+}
+
+#myCarousel .carousel-inner>.item {
+    min-height: 100vh;
 }
 
 #myCarousel .carousel-inner>.item>img {
     width: 100%;
+    min-height: 100vh;
 }
 
 footer {
@@ -183,9 +193,8 @@ button {
     color: #fff !important;
     border: 0 !important;
     border-radius: 0 !important;
-    height: 45px;
-    width: 200px;
     outline: 0;
+    display: none;
 }
 
 .testimonials-wrapper {
@@ -255,7 +264,7 @@ button {
 }
 
 .our-service-wrapper>div:nth-child(even) {
-    margin-top: 50px;
+    /* margin-top: 20px; */
 }
 
 .our-service-wrapper>div>img {
@@ -290,8 +299,17 @@ header.black-header .navbar-right {
     text-align: justify;
 }
 
-.about-what {
+.hair-care-style,
+.waxing-hair-removal,
+.massage-body-treatment {
     background-color: #eed8ba;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skin-facial-treatment,
+.nail-lash-service,
+.makeup-bridal-service {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -337,4 +355,13 @@ header.black-header .navbar-right {
 
 .banner-wrapper .banner-content ul>li>a {
     color: #c68e3f;
+}
+
+.home-read-more {
+    text-align: right;
+}
+
+.home-read-more>a {
+    color: inherit;
+    cursor: pointer;
 }

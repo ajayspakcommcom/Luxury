@@ -1,3 +1,4 @@
+import React from 'react';
 import Icons from '../Utilities/Icons';
 import Links from '../Utilities/Links';
 import SocialLink from '../Utilities/SocialLink';
@@ -41,4 +42,4 @@ const Footer = (props) => {
     );
 };
 
-export default Footer;
+export default React.memo(Footer);

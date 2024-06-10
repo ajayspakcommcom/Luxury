@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from '../../content/images/logo.png';
 import Links from "../Utilities/Links";
 import { useHistory, useLocation } from 'react-router-dom';
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Header = (props) => {
 
@@ -24,7 +24,7 @@ const Header = (props) => {
             <nav className="navbar">
                 <div className="container">
                     <div className="navbar-header">
-                        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <button type="button" className="navbar-tseoggle" data-toggle="collapse" data-target="#myNavbar">
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
@@ -40,4 +40,4 @@ const Header = (props) => {
     );
 };
 
-export default Header;
+export default React.memo(Header);

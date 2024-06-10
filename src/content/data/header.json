@@ -11,14 +11,9 @@
     },
      {
         "id":3,
-        "text":"Services",
-        "url":"/services"
-    },
-     {
-        "id":4,
-        "text":"Booking",
-        "url":"javascript:void(0);"
-    },
+        "text":"Menu",
+        "url":"/menu"
+    },    
      {
         "id":5,
         "text":"Contact Us",

@@ -4,6 +4,7 @@ import CarouselData from '../../content/data/carousel.json';
 import GetInTouchForm from '../../components/Utilities/GetInTouchForm';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import Heading from '../../components/Utilities/Heading';
+import { useNavigate } from 'react-router-dom';
 
 const serviceList = [
     { id: 1, text: 'Change Coloring' },
@@ -16,14 +17,18 @@ const serviceList = [
 const Home = (props) => {
 
     const [service, setService] = useState(serviceList);
+    const navigate = useNavigate();
+
+    const gotoHandler = () => {
+        navigate('/menu');
+    };
 
     return (
         <>
             <Carousel id="myCarousel" carouselData={CarouselData} prevText="Prev" nextText="Next" />
             <div className='container our-service-main-wrapper'>
-                <Heading class='text-center' heading='Our Services' />
+                <Heading class='text-center' heading='Our Menu' />
                 <div className='our-service-wrapper'>
-
                     {
                         service.map((item) =>
                             <div key={item.id}>
@@ -32,6 +37,7 @@ const Home = (props) => {
                             </div>)
                     }
                 </div>
+                <div className='home-read-more'><a onClick={gotoHandler}>Read More...</a></div>
             </div>
             <Testimonial />
             <div className='container'>
