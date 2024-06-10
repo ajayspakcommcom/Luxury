@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "imgUrl":"1.jpg",
+        "smallText":"Look Today",
+        "bigText":"The art <br /> of natural <br /> beauty",
+        "BtnText":"Book Now"        
+    },
+      {
+        "id":2,
+        "imgUrl":"1.jpg",
+        "smallText":"Look Today",
+        "bigText":"The art <br /> of natural <br /> beauty",
+        "BtnText":"Book Now"        
+    }
+]

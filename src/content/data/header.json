@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "text":"Home",
+        "url":"/"
+    },
+     {
+        "id":2,
+        "text":"About",
+        "url":"/about-us"
+    },
+     {
+        "id":3,
+        "text":"Services",
+        "url":"/services"
+    },
+     {
+        "id":4,
+        "text":"Booking",
+        "url":"javascript:void(0);"
+    },
+     {
+        "id":5,
+        "text":"Contact Us",
+        "url":"/contact-us"
+    }
+]

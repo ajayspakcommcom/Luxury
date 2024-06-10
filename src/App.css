@@ -1,0 +1,340 @@
+@import './font/Caveat-Regular/stylesheet.css';
+@import './font/Poppins-Regular/stylesheet.css';
+@import './font/YesevaOne-Regular/stylesheet.css';
+
+body {
+    font-family: 'Poppins';
+}
+
+header {
+    z-index: 9999;
+    position: relative;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-nav>li>a {
+    font-size: 14px;
+    color: #c68e3f;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: transparent;
+}
+
+.navbar-right {
+    position: relative;
+    top: 20px;
+}
+
+#myCarousel {
+    margin-top: 0;
+    bottom: 52px;
+}
+
+#myCarousel .carousel-inner>.item>img {
+    width: 100%;
+}
+
+footer {
+    background-color: #000;
+    padding: 50px 0 50px 0;
+    color: #fff;
+}
+
+.copright-wrapper {
+    background-color: #c68e3f;
+    color: #fff;
+    font-size: 14px;
+    padding: 18px 0;
+}
+
+.copright-wrapper p {
+    margin-bottom: 0;
+}
+
+.footer-logo-wrapper {
+    padding: 0 0 10px 0;
+}
+
+.footer-logo-wrapper p {
+    margin-top: 15px;
+}
+
+footer h3 {
+    color: #c68e3f;
+    font-size: 20px;
+    font-family: 'Yeseva One';
+    margin-bottom: 15px;
+}
+
+.footer-link {
+    float: none !important;
+}
+
+.footer-link>li {
+    display: block;
+    float: none;
+}
+
+.footer-link>li>a {
+    float: none;
+    padding: 8px 10px;
+    height: auto;
+}
+
+.footer-table td {
+    border-top: 0 !important;
+}
+
+.icon {
+    width: 20px;
+}
+
+.social-link {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0 0;
+}
+
+.social-link>li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.social-link>li:last-child {
+    margin-right: 0;
+}
+
+.carousel-caption {
+    right: auto;
+    left: 10%;
+    padding-bottom: 30px;
+    text-align: left;
+    bottom: auto;
+    top: 18%;
+}
+
+.carousel-caption h3 {
+    color: #c68e3f;
+    font-family: 'Caveat';
+    font-size: 44px;
+}
+
+.carousel-caption p {
+    margin-bottom: 0;
+    font-size: 70px;
+    font-family: 'Yeseva One';
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner>img {
+    width: 100%;
+}
+
+.icon-arrow {
+    width: 30px;
+}
+
+h2 {
+    color: #c68e3f;
+    font-family: 'Yeseva One';
+}
+
+.error-text {
+    text-align: left;
+    color: #cc0000;
+}
+
+.get-in-touch {
+    padding: 60px 0;
+}
+
+.get-in-touch h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 2px solid rgba(198, 142, 63, 0.5);
+    color: #000;
+    height: 45px;
+}
+
+.get-in-touch .form-control {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #c68e3f !important;
+    color: #fff !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    height: 45px;
+    width: 200px;
+    outline: 0;
+}
+
+.testimonials-wrapper {
+    background-color: #eed8ba;
+    padding: 50px 0;
+}
+
+.testimonials-wrapper h2 {
+    margin: 0 0;
+}
+
+.quote-wrapper {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.quote-wrapper img {
+    width: 50px;
+}
+
+.test-designation b {
+    display: block;
+    font-family: 'Caveat';
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.test-designation img {
+    width: 60px;
+}
+
+#testimonialCar .carousel-control.left {
+    justify-content: start;
+}
+
+#testimonialCar .carousel-control.right {
+    justify-content: end;
+}
+
+#testimonialCar .carousel-control.left .icon-arrow,
+#testimonialCar .carousel-control.right .icon-arrow {
+    position: relative;
+}
+
+#testimonialCar .carousel-control.left .icon-arrow {
+    right: 50px;
+}
+
+#testimonialCar .carousel-control.right .icon-arrow {
+    left: 50px;
+}
+
+.our-service-main-wrapper {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.our-service-main-wrapper h2 {
+    margin-bottom: 35px;
+}
+
+.our-service-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.our-service-wrapper>div:nth-child(even) {
+    margin-top: 50px;
+}
+
+.our-service-wrapper>div>img {
+    border: 5px solid #eed8ba;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.our-service-wrapper>div>p {
+    margin-bottom: 0;
+    font-family: 'Yeseva One';
+    text-align: center;
+    color: #c68e3f;
+    font-size: 20px;
+}
+
+header.black-header {
+    background: #000;
+    height: 110px;
+}
+
+header.black-header .navbar-right {
+    top: 30px;
+}
+
+.about-wrapper {
+    padding-top: 50px;
+}
+
+.about-wrapper p {
+    text-align: justify;
+}
+
+.about-what {
+    background-color: #eed8ba;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner-wrapper {
+    position: relative;
+}
+
+.banner-wrapper>img {
+    width: 100%;
+}
+
+.banner-wrapper .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.banner-wrapper .banner-content h1 {
+    font-family: 'Yeseva One';
+    color: #c68e3f;
+    margin: 0 0;
+    font-size: 40px;
+}
+
+.banner-wrapper .banner-content ul {
+    list-style: none;
+    padding: 0 0;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.banner-wrapper .banner-content ul>li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #c68e3f;
+}
+
+.banner-wrapper .banner-content ul>li>a {
+    color: #c68e3f;
+}
