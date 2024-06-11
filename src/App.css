@@ -250,7 +250,8 @@ button {
 
 .our-service-main-wrapper {
     padding-top: 20px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
+    padding-bottom: 20px;
 }
 
 .our-service-main-wrapper h2 {
@@ -258,19 +259,25 @@ button {
 }
 
 .our-service-wrapper {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.our-service-wrapper>div:nth-child(even) {
-    /* margin-top: 20px; */
+.our-service-wrapper>img {
+    cursor: pointer;
+    margin: 0 10px;
+    width: 25%;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .our-service-wrapper>div>img {
     border: 5px solid #eed8ba;
     display: block;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     width: 100%;
 }
 
@@ -280,6 +287,7 @@ button {
     text-align: center;
     color: #c68e3f;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 header.black-header {
@@ -373,3 +381,9 @@ header.black-header .navbar-right {
 .footer-a>a:hover {
     text-decoration: none;
 }
+
+.ABOUT-CONTENT-WRAPPER {
+    padding-bottom: 40px;
+}
+
+.what-we-do {}

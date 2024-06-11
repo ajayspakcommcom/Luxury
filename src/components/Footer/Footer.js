@@ -10,7 +10,7 @@ const Footer = (props) => {
                 <div className='col-lg-4 col-md-4 col-sm-4 col-xs-12'>
                     <div className='footer-logo-wrapper'>
                         <img src={require('../../content/images/logo.png')} alt='The Luxury Company Logo' />
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim</p>
+                        <p>Drawing upon over twelve years of rich experience in the Beauty & Wellness industry, The Luxury Company (TLC) sets a new paradigm for luxury, elegance, and sophistication in the Northeast.</p>
                         <SocialLink />
                     </div>
                 </div>
