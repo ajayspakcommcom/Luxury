@@ -4,13 +4,15 @@ import CarouselItem from './CarouselItem';
 
 const Carousel = (props) => {
 
+
+
     return (
 
         <div id={props.id} className="carousel slide" data-ride="carousel">
 
-            {/* <ol className="carousel-indicators">
+            {false && <ol className="carousel-indicators">
                 {props.carouselData.map((item, indx) => { return <CarouselIndicator key={item.id} dataTarget={props.id} dataSlideTo={item.id} class={indx === 0 ? 'active' : ''} /> })}
-            </ol> */}
+            </ol>}
 
             <div className="carousel-inner">
 
@@ -21,16 +23,24 @@ const Carousel = (props) => {
                 }
 
                 <a className="left carousel-control" href={`#${props.id}`} data-slide="prev">
-                    {/* <span className="glyphicon glyphicon-chevron-left"></span>
-                    <span className="sr-only">{props.prevText}</span> */}
+                    {false && <>
+                        <span className="glyphicon glyphicon-chevron-left"></span>
+                        <span className="sr-only">{props.prevText}</span>
+                    </>
+                    }
                     <Icons icon='left-arrow' />
                 </a>
-                <a className="right carousel-control" href={`#${props.id}`} data-slide="next">
-                    {/* <span className="glyphicon glyphicon-chevron-right"></span>
-                    <span className="sr-only">{props.nextText}</span> */}
+                {true && <a className="right carousel-control" href={`#${props.id}`} data-slide="next">
+                    {
+                        false && <>
+                            <span className="glyphicon glyphicon-chevron-right"></span>
+                            <span className="sr-only">{props.nextText}</span>
+                        </>
+                    }
                     <Icons icon='right-arrow' />
-                </a>
+                </a>}
             </div>
+
         </div>
     );
 
