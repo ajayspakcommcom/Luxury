@@ -9,6 +9,8 @@ body {
 header {
     z-index: 9999;
     position: relative;
+    height: 100px;
+    /* background: rgba(0, 0, 0, 0.5); */
 }
 
 .navbar {
@@ -32,8 +34,10 @@ header {
 
 #myCarousel {
     margin-top: 0;
-    bottom: 52px;
+    bottom: 100px;
     min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
 }
 
 #myCarousel .carousel-inner {
@@ -47,6 +51,7 @@ header {
 #myCarousel .carousel-inner>.item>img {
     width: 100%;
     min-height: 100vh;
+    object-fit: cover;
 }
 
 footer {
@@ -148,6 +153,7 @@ footer h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 1;
 }
 
 .carousel-inner>img {
@@ -387,3 +393,11 @@ header.black-header .navbar-right {
 }
 
 .what-we-do {}
+
+.form-btn-wrapper {
+    text-align: right;
+}
+
+.form-btn-wrapper .btn-default {
+    min-height: 45px;
+}

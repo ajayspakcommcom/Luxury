@@ -74,7 +74,9 @@ const GetInTouchForm = (props) => {
                             <div className="form-group">
                                 <textarea className="form-control" rows="5" id="comment" placeholder="Message" onChange={messageChangeHandler}></textarea>
                             </div>
-                            <button type="submit" className="btn btn-default">Send us a message</button>
+                            <div className='form-btn-wrapper'>
+                                <button type="submit" className="btn btn-default">Send us a message</button>
+                            </div>
                         </div>
                     </div>
                 </div>
