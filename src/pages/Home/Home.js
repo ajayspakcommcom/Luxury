@@ -25,14 +25,7 @@ const Home = (props) => {
         navigate('/menu');
     };
 
-    const imageSources = [
-        'pdf/1.png',
-        'pdf/2.png',
-        'pdf/3.png',
-        'pdf/4.png',
-        'pdf/5.png',
-        'pdf/7.png'
-    ];
+    const imageSources = ['pdf/1.png', 'pdf/2.png', 'pdf/3.png', 'pdf/4.png', 'pdf/5.png', 'pdf/7.png'];
 
     return (
         <>

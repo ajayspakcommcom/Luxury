@@ -4,15 +4,11 @@ import CarouselItem from './CarouselItem';
 
 const Carousel = (props) => {
 
-
-
     return (
 
         <div id={props.id} className="carousel slide" data-ride="carousel">
 
-            {false && <ol className="carousel-indicators">
-                {props.carouselData.map((item, indx) => { return <CarouselIndicator key={item.id} dataTarget={props.id} dataSlideTo={item.id} class={indx === 0 ? 'active' : ''} /> })}
-            </ol>}
+            {false && <ol className="carousel-indicators"> {props.carouselData.map((item, indx) => { return <CarouselIndicator key={item.id} dataTarget={props.id} dataSlideTo={item.id} class={indx === 0 ? 'active' : ''} /> })}</ol>}
 
             <div className="carousel-inner">
 

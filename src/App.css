@@ -6,11 +6,12 @@ body {
     font-family: 'Poppins';
 }
 
+
 header {
     z-index: 9999;
     position: relative;
     height: 100px;
-    /* background: rgba(0, 0, 0, 0.5); */
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
@@ -400,4 +401,29 @@ header.black-header .navbar-right {
 
 .form-btn-wrapper .btn-default {
     min-height: 45px;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+.carousel-inner .item>img {
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
 }

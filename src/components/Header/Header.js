@@ -12,12 +12,7 @@ const Header = (props) => {
     useEffect(() => {
 
         const pathName = location.pathname;
-
-        console.log(generateTitle(pathName));
-
         document.title = generateTitle(pathName);
-
-
         if (location.pathname.substring(1).length > 0) {
             setHeaderClass('black-header');
         } else {
@@ -39,9 +34,7 @@ const Header = (props) => {
                         </button>
                         <Link to="/" className="navbar-brand"><img src={Logo} /></Link>
                     </div>
-                    <div className="collapse navbar-collapse" id="myNavbar">
-                        <Links />
-                    </div>
+                    <div className="collapse navbar-collapse" id="myNavbar"><Links /></div>
                 </div>
             </nav>
         </header>
