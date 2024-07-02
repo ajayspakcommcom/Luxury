@@ -427,3 +427,63 @@ header.black-header .navbar-right {
     -webkit-animation: zoom 20s;
     animation: zoom 20s;
 }
+
+.menu-h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.menu-ul {
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.menu-ul>li {
+    border-top: 1px solid #c68e3f;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.menu-ul>li:last-child {
+    border-bottom: 1px solid #c68e3f;
+}
+
+.our-service-main-wrapper.home {
+    padding-bottom: 100px;
+}
+
+.menu-dropdown {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-dropdown button {
+    width: 220px !important;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.menu-dropdown button .caret {
+    position: relative;
+    top: 8px;
+}
+
+
+.menu-dropdown .dropdown-menu {
+    right: 0;
+    min-width: 220px;
+    max-width: 220px;
+}
+
+.menu-dropdown .dropdown-menu>li>a {
+    cursor: pointer;
+}
+
+.menu-dropdown .dropdown-menu>.active>a,
+.menu-dropdown .dropdown-menu>.active>a:focus,
+.menu-dropdown .dropdown-menu>.active>a:hover {
+    background-color: #c68e3f;
+}

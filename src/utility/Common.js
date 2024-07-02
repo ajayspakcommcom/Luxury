@@ -25,3 +25,36 @@ export const generateTitle = (pathName) => {
             return `${title} : ${processPath(pathName)}`;
     }
 };
+
+export function getTextForTab(tabId) {
+    switch (tabId) {
+        case 'hair-service':
+            return 'HAIR SERVICES';
+        case 'hair-colour':
+            return 'HAIR COLOUR';
+        case 'hair-services-men':
+            return 'HAIR SERVICES - MEN';
+        case 'skin-care':
+            return 'SKIN CARE';
+        case 'bleach':
+            return 'BLEACH';
+        case 'regular-waxing':
+            return 'REGULAR WAXING';
+        case 'premium-waxing':
+            return 'PREMIUM WAXING';
+        case 'threading':
+            return 'THREADING';
+        case 'hands-feet':
+            return 'HANDS & FEET';
+        case 'nails-brows-lashes':
+            return 'NAILS, BROWS & LASHES';
+        case 'massage':
+            return 'MASSAGE';
+        case 'bridal-services':
+            return 'BRIDAL SERVICES';
+        case 'customised-programmes':
+            return 'CUSTOMISED PROGRAMMES';
+        default:
+            return '';
+    }
+}
