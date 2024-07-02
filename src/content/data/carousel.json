@@ -68,28 +68,7 @@
         "smallText": "Experience",
         "bigText": "The Thrill <br /> of Adventure",
         "BtnText": "Book Now"
-    },
-    {
-        "id": 11,
-        "imgUrl": "11.jpg",
-        "smallText": "Taste",
-        "bigText": "The Exquisite <br /> Flavors",
-        "BtnText": "Order Now"
-    },
-    {
-        "id": 12,
-        "imgUrl": "12.jpg",
-        "smallText": "Discover",
-        "bigText": "The Wonders <br /> of Nature",
-        "BtnText": "Explore"
-    },
-    {
-        "id": 13,
-        "imgUrl": "13.jpg",
-        "smallText": "Join Us",
-        "bigText": "For Memorable <br /> Experiences",
-        "BtnText": "Learn More"
-    },
+    },   
     {
         "id": 14,
         "imgUrl": "14.jpg",

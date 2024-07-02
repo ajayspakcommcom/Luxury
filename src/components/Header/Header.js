@@ -34,7 +34,7 @@ const Header = (props) => {
                         </button>
                         <Link to="/" className="navbar-brand"><img src={Logo} /></Link>
                     </div>
-                    <div className="collapse navbar-collapse" id="myNavbar"><Links /></div>
+                    <div className="collapse navbar-collapse" id="myNavbar"><Links isSocialVisible={true} /></div>
                 </div>
             </nav>
         </header>
