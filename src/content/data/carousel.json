@@ -3,77 +3,42 @@
         "id": 1,
         "imgUrl": "1.jpg",
         "smallText": "Look Today",
-        "bigText": "The art <br /> of natural <br /> beauty",
+        "bigText": "Elegant Lounge <br /> Area",
         "BtnText": "Book Now"
     },
     {
         "id": 2,
         "imgUrl": "2.jpg",
         "smallText": "Discover",
-        "bigText": "New Fashion",
+        "bigText": "Premium Pedicure <br /> Stations",
         "BtnText": "Shop Now"
     },
     {
         "id": 3,
         "imgUrl": "3.jpg",
         "smallText": "Experience",
-        "bigText": "Luxury Living",
+        "bigText": "Luxurious Display <br /> Shelves",
         "BtnText": "Explore"
     },
     {
         "id": 4,
         "imgUrl": "4.jpg",
         "smallText": "Find Your Style",
-        "bigText": "With Our <br /> Latest Collection",
+        "bigText": "Relaxation and <br /> Comfort",
         "BtnText": "View Collection"
     },
     {
         "id": 5,
         "imgUrl": "5.jpg",
         "smallText": "Taste",
-        "bigText": "The Flavors <br /> of the World",
+        "bigText": "Tranquil Massage <br /> Room",
         "BtnText": "Order Now"
     },
     {
         "id": 6,
         "imgUrl": "6.jpg",
         "smallText": "Join Us",
-        "bigText": "For Exciting <br /> Adventures",
+        "bigText": "Advanced Skincare <br /> Setup",
         "BtnText": "Learn More"
-    },
-    {
-        "id": 7,
-        "imgUrl": "7.jpg",
-        "smallText": "Discover",
-        "bigText": "Your Perfect <br /> Getaway",
-        "BtnText": "Plan Trip"
-    },
-    {
-        "id": 8,
-        "imgUrl": "8.jpg",
-        "smallText": "Embrace",
-        "bigText": "The Beauty <br /> of Nature",
-        "BtnText": "Explore Nature"
-    },
-    {
-        "id": 9,
-        "imgUrl": "9.jpg",
-        "smallText": "Unwind",
-        "bigText": "With Our <br /> Relaxation Services",
-        "BtnText": "Book Spa"
-    },
-    {
-        "id": 10,
-        "imgUrl": "10.jpg",
-        "smallText": "Experience",
-        "bigText": "The Thrill <br /> of Adventure",
-        "BtnText": "Book Now"
-    },   
-    {
-        "id": 14,
-        "imgUrl": "14.jpg",
-        "smallText": "Find Your Style",
-        "bigText": "With Our <br /> Latest Collection",
-        "BtnText": "View Collection"
     }
 ]

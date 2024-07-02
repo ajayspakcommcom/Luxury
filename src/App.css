@@ -26,6 +26,7 @@ header {
 .nav>li>a:focus,
 .nav>li>a:hover {
     background-color: transparent;
+    text-decoration: underline;
 }
 
 .navbar-right {
@@ -138,6 +139,7 @@ footer h3 {
     color: #c68e3f;
     font-family: 'Caveat';
     font-size: 44px;
+    visibility: hidden;
 }
 
 .carousel-caption p {
@@ -401,6 +403,20 @@ header.black-header .navbar-right {
 
 .form-btn-wrapper .btn-default {
     min-height: 45px;
+    width: 100%;
+    border: 2px solid #c68e3f !important;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+
+.form-btn-wrapper .btn-default:hover {
+    border: 1px solid #c68e3f !important;
+    color: #c68e3f !important;
+    background-color: transparent !important;
 }
 
 @-webkit-keyframes zoom {
