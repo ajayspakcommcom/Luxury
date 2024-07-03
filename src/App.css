@@ -144,10 +144,10 @@ footer h3 {
 
 .carousel-caption p {
     margin-bottom: 0;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Yeseva One';
     text-transform: uppercase;
-    line-height: 80px;
+    line-height: 50px;
 }
 
 .carousel-control.left,
@@ -502,4 +502,13 @@ header.black-header .navbar-right {
 .menu-dropdown .dropdown-menu>.active>a:focus,
 .menu-dropdown .dropdown-menu>.active>a:hover {
     background-color: #c68e3f;
+}
+
+#myCarousel .carousel-inner>.item.customRight .carousel-caption {
+    left: auto;
+    right: 10%;
+}
+
+#myCarousel .carousel-inner>.item.customRight .carousel-caption p {
+    text-align: right;
 }

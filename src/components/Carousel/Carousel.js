@@ -14,7 +14,7 @@ const Carousel = (props) => {
 
                 {
                     props.carouselData.map((item, indx) => {
-                        return (<CarouselItem key={item.id} class={indx === 0 ? 'item active' : 'item'} src={item.imgUrl} smallText={item.smallText} bigText={item.bigText} />);
+                        return (<CarouselItem key={item.id} class={`${indx === 0 ? 'item active' : 'item'} ${indx === 2 ? 'customRight' : ''} ${indx === 4 ? 'customRight' : ''}`} src={item.imgUrl} smallText={item.smallText} bigText={item.bigText} />);
                     })
                 }
 
