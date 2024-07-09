@@ -169,7 +169,6 @@ const Menu = (props) => {
         ],
         customisedProgrammes = [];
 
-
     const tabs = [
         'hair-service',
         'hair-colour',
@@ -188,12 +187,12 @@ const Menu = (props) => {
 
     return (
         <div className='container our-service-main-wrapper'>
-            <Heading class='text-center' heading='Our Menu' />
+            <Heading className='text-center' heading='Our Menu' />
 
             <div className='menu-dropdown'>
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="tabDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        {getTextForTab(activeTab)} <span class="caret"></span>
+                <div className="dropdown">
+                    <button className="btn btn-default dropdown-toggle" type="button" id="tabDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        {getTextForTab(activeTab)} <span className="caret"></span>
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="tabDropdown">
                         {tabs.map(tab => (
