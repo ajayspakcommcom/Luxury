@@ -33,6 +33,7 @@ const Home = (props) => {
             <div className='container our-service-main-wrapper home'>
 
                 <Heading class='text-center' heading='Our Menu' />
+
                 {/* <LightBoxGallery images={imageSources} />
                 <div className='home-read-more'><a onClick={gotoHandler}>Read More...</a></div> */}
 

@@ -512,3 +512,14 @@ header.black-header .navbar-right {
 #myCarousel .carousel-inner>.item.customRight .carousel-caption p {
     text-align: right;
 }
+
+#myCarousel .carousel-indicators li {
+    margin: 0;
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+
+#myCarousel .carousel-indicators li.active {
+    background-color: #c68e3f;
+}
