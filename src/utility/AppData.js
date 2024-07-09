@@ -31,3 +31,110 @@ export const REVIEWS = [
         { name: 'Roze Thiaite', text: rozeThiaiteText, imgUrl: require('../content/images/testimonial/1.png') },
     ]
 ];
+
+export const owlCarouselDataList = [
+    {
+        id: 1,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'HAIR SERVICES',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 2,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'HAIR COLOUR',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 3,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'HAIR SERVICES - MEN',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 4,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'SKIN CARE',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 5,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'BLEACH',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 6,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'REGULAR WAXING',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 7,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'PREMIUM WAXING',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 8,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'THREADING',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 9,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'HANDS & FEET',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 10,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'NAILS, BROWS & LASHES',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 11,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'MASSAGE',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 12,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'BRIDAL SERVICES',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    },
+    {
+        id: 13,
+        imageUrl: 'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png',
+        heading: 'CUSTOMISED PROGRAMMES',
+        subHeading: 'Lovely',
+        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+        buttonLabel: 'Read More'
+    }
+]

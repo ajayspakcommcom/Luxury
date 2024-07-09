@@ -187,24 +187,32 @@ const Menu = (props) => {
 
     return (
         <div className='container our-service-main-wrapper'>
-            <Heading className='text-center' heading='Our Menu' />
+            <Heading className='text-center' heading='Our Services' />
 
-            <div className='menu-dropdown'>
-                <div className="dropdown">
-                    <button className="btn btn-default dropdown-toggle" type="button" id="tabDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        {getTextForTab(activeTab)} <span className="caret"></span>
-                    </button>
-                    <ul className="dropdown-menu" aria-labelledby="tabDropdown">
-                        {tabs.map(tab => (
-                            <li key={tab} className={activeTab === tab ? 'active' : ''}>
-                                <a onClick={() => handleTabClick(tab)}>
-                                    {getTextForTab(tab)}
-                                </a>
-                            </li>
-                        ))}
-                    </ul>
+            <div className='row'>
+                <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'></div>
+                <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                    <div className='menu-dropdown'>
+                        <div className="dropdown">
+                            <span>{getTextForTab(activeTab)}</span>
+                            <button className="btn btn-default dropdown-toggle" type="button" id="tabDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <span className="caret"></span>
+                            </button>
+                            <ul className="dropdown-menu" aria-labelledby="tabDropdown">
+                                {tabs.map(tab => (
+                                    <li key={tab} className={activeTab === tab ? 'active' : ''}>
+                                        <a onClick={() => handleTabClick(tab)}>
+                                            {getTextForTab(tab)}
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
 
 
             <div className="tab-content">

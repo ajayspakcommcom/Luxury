@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom';
 
 
 const Banner = (props) => {
+
+
+
     return (
         <div className='banner-wrapper'>
             <img src={require('../../content/images/banner/1.png')} alt='banner' img="img-responsive" />

@@ -21,6 +21,7 @@ header {
 .navbar-nav>li>a {
     font-size: 14px;
     color: #c68e3f;
+    text-transform: uppercase;
 }
 
 .nav>li>a:focus,
@@ -447,6 +448,7 @@ header.black-header .navbar-right {
 .menu-h3 {
     margin-top: 0;
     font-weight: bold;
+    display: none;
 }
 
 .menu-ul {
@@ -469,28 +471,45 @@ header.black-header .navbar-right {
     padding-bottom: 100px;
 }
 
-.menu-dropdown {
+/* .menu-dropdown {
     text-align: right;
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 .menu-dropdown button {
     width: 220px !important;
     display: flex;
     justify-content: space-between;
     align-content: center;
+    position: relative;
+    background: transparent !important;
+}
+
+.menu-dropdown .dropdown {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-dropdown .dropdown>span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #c68e3f;
 }
 
 .menu-dropdown button .caret {
-    position: relative;
+    position: absolute;
     top: 8px;
+    left: auto;
+    right: 0;
+    color: #000;
 }
 
 
 .menu-dropdown .dropdown-menu {
     right: 0;
     min-width: 220px;
+    left: auto;
     max-width: 220px;
 }
 
@@ -583,7 +602,7 @@ header.black-header .navbar-right {
     color: #c68e3f !important;
     font-family: 'Yeseva One';
     letter-spacing: 1px;
-    font-size: 24px !important;
+    font-size: 20px !important;
     font-weight: 100;
     margin-top: 0;
 }
@@ -601,6 +620,61 @@ header.black-header .navbar-right {
 .card .btn:hover {
     background-color: #c68e3f !important;
     color: #fff !important;
+}
+
+.service-drop-wrapper {
+    display: flex;
+}
+
+.navbar-brand {
+    padding: 15px 0 0 0;
+}
+
+.navbar-brand>img {
+    width: 300px;
+    height: 80px;
+}
+
+.gallery-wrapper {
+    padding: 50px 0;
+}
+
+
+
+.owl-theme .owl-nav {
+    margin-top: 0;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+    font-size: 50px;
+    color: #fff !important;
+}
+
+.owl-carousel .owl-item {
+    min-height: 420px;
 }
 
 
@@ -621,6 +695,12 @@ header.black-header .navbar-right {
     header .navbar .navbar-brand {
         padding: 0 0;
     }
+
+    header .navbar .navbar-brand {
+        padding: 0 0;
+    }
+
+
 
     .navbar-header button {
         display: block;

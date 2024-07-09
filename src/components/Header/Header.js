@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import Logo from '../../content/images/logo.png';
+import Logo from '../../content/images/logo.svg';
 import Links from "../Utilities/Links";
 import React, { useEffect, useState } from "react";
 import { generateTitle } from "../../utility/Common";

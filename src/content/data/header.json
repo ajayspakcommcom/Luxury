@@ -1,13 +1,23 @@
 [
      {
+        "id":1,
+        "text":"Home",
+        "url":"/"
+    },
+     {
         "id":2,
         "text":"About",
         "url":"/about-us"
     },
      {
         "id":3,
-        "text":"Menu",
-        "url":"/menu"
+        "text":"Services",
+        "url":"/service"
+    },   
+     {
+        "id":4,
+        "text":"Gallery",
+        "url":"/gallery"
     },    
      {
         "id":5,
