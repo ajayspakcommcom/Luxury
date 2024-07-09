@@ -1,15 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import Heading from '../../components/Utilities/Heading';
-import LightBoxGallery from '../../components/LightBoxGallery/LightBoxGallery';
 import { getTextForTab } from '../../utility/Common';
+import { useLocation } from 'react-router-dom';
 
 
 const Menu = (props) => {
 
+    const location = useLocation();
+    const queryParams = new URLSearchParams(location.search);
 
     const [activeTab, setActiveTab] = useState('hair-service');
 
+    useEffect(() => {
+
+        const param = queryParams.get('name');
+
+        if (param) {
+            setActiveTab(param)
+        }
+
+    }, [queryParams.get('name')]);
+
     const handleTabClick = (tabId) => {
+        console.log(tabId)
         setActiveTab(tabId);
     };
 

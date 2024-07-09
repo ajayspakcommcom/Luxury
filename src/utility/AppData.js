@@ -39,7 +39,8 @@ export const owlCarouselDataList = [
         heading: 'HAIR SERVICES',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'hair-services'
     },
     {
         id: 2,
@@ -47,7 +48,8 @@ export const owlCarouselDataList = [
         heading: 'HAIR COLOUR',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'hair-colour'
     },
     {
         id: 3,
@@ -55,7 +57,8 @@ export const owlCarouselDataList = [
         heading: 'HAIR SERVICES - MEN',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'hair-services-men'
     },
     {
         id: 4,
@@ -63,7 +66,8 @@ export const owlCarouselDataList = [
         heading: 'SKIN CARE',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'skin-care'
     },
     {
         id: 5,
@@ -71,7 +75,8 @@ export const owlCarouselDataList = [
         heading: 'BLEACH',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'bleach'
     },
     {
         id: 6,
@@ -79,7 +84,8 @@ export const owlCarouselDataList = [
         heading: 'REGULAR WAXING',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'regular-waxing'
     },
     {
         id: 7,
@@ -87,7 +93,8 @@ export const owlCarouselDataList = [
         heading: 'PREMIUM WAXING',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'premium-waxing'
     },
     {
         id: 8,
@@ -95,7 +102,8 @@ export const owlCarouselDataList = [
         heading: 'THREADING',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'threading'
     },
     {
         id: 9,
@@ -103,7 +111,8 @@ export const owlCarouselDataList = [
         heading: 'HANDS & FEET',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'hands-feet'
     },
     {
         id: 10,
@@ -111,7 +120,8 @@ export const owlCarouselDataList = [
         heading: 'NAILS, BROWS & LASHES',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'nails-brows-lashes'
     },
     {
         id: 11,
@@ -119,7 +129,8 @@ export const owlCarouselDataList = [
         heading: 'MASSAGE',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'massage'
     },
     {
         id: 12,
@@ -127,7 +138,8 @@ export const owlCarouselDataList = [
         heading: 'BRIDAL SERVICES',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'bridal-services'
     },
     {
         id: 13,
@@ -135,6 +147,7 @@ export const owlCarouselDataList = [
         heading: 'CUSTOMISED PROGRAMMES',
         subHeading: 'Lovely',
         paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
-        buttonLabel: 'Read More'
+        buttonLabel: 'Read More',
+        urlLink: 'customised-programmes'
     }
-]
+];

@@ -85,8 +85,9 @@ footer {
 footer h3 {
     color: #c68e3f;
     font-size: 20px;
-    font-family: 'Yeseva One';
+    font-family: 'Poppins';
     margin-bottom: 15px;
+    font-weight: 600;
 }
 
 .footer-link {
@@ -170,7 +171,8 @@ footer h3 {
 
 h2 {
     color: #c68e3f;
-    font-family: 'Yeseva One';
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 
 .error-text {
@@ -228,8 +230,8 @@ button {
 
 .test-designation b {
     display: block;
-    font-family: 'Caveat';
-    font-size: 20px;
+    font-family: 'Poppins';
+    font-size: 12px;
     margin-bottom: 5px;
 }
 
@@ -266,6 +268,8 @@ button {
 
 .our-service-main-wrapper h2 {
     margin-bottom: 35px;
+    font-family: 'Poppins';
+    font-weight: 900;
 }
 
 .our-service-wrapper {
@@ -352,10 +356,11 @@ header.black-header .navbar-right {
 }
 
 .banner-wrapper .banner-content h1 {
-    font-family: 'Yeseva One';
+    font-family: 'Poppins';
     color: #c68e3f;
     margin: 0 0;
     font-size: 40px;
+    font-weight: 600;
 }
 
 .banner-wrapper .banner-content ul {
@@ -461,6 +466,10 @@ header.black-header .navbar-right {
     display: flex;
     justify-content: space-between;
     padding: 5px 0;
+}
+
+.menu-ul>li>span:last-child {
+    visibility: hidden;
 }
 
 .menu-ul>li:last-child {
@@ -581,8 +590,8 @@ header.black-header .navbar-right {
     color: #000;
     display: block;
     text-align: center;
-    font-size: 25px;
-    font-family: 'Caveat';
+    font-size: 18px;
+    font-family: 'Poppins';
     margin-top: 15px;
     font-weight: 600;
     cursor: pointer;
@@ -600,7 +609,7 @@ header.black-header .navbar-right {
 
 .card .card-title {
     color: #c68e3f !important;
-    font-family: 'Yeseva One';
+    font-family: 'Poppins';
     letter-spacing: 1px;
     font-size: 20px !important;
     font-weight: 100;
@@ -642,17 +651,11 @@ header.black-header .navbar-right {
 
 
 .owl-theme .owl-nav {
-    margin-top: 0;
+    margin-top: 20px;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
 .owl-carousel .owl-nav button.owl-prev,

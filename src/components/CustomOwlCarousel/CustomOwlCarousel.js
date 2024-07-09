@@ -21,7 +21,7 @@ const CustomOwlCarousel = () => {
         <>
             <OwlCarousel className='owl-theme' loop margin={10} nav {...owlOptions} id='owl-car-service'>
                 {menuItems.map((item, index) => (
-                    <MenuCard key={index} imageUrl={item.imageUrl} heading={item.heading} subHeading={item.subHeading} paragraph={item.paragraph} buttonLabel={item.buttonLabel} />
+                    <MenuCard key={index} imageUrl={item.imageUrl} heading={item.heading} subHeading={item.subHeading} paragraph={item.paragraph} buttonLabel={item.buttonLabel} urlLink={item.urlLink} />
                 ))}
 
             </OwlCarousel>
