@@ -6,6 +6,7 @@ import Testimonial from '../../components/Testimonial/Testimonial';
 import Heading from '../../components/Utilities/Heading';
 import { useNavigate } from 'react-router-dom';
 import LightBoxGallery from '../../components/LightBoxGallery/LightBoxGallery';
+import MenuCard from '../../components/MenuCard/MenuCard';
 
 
 const serviceList = [
@@ -34,10 +35,22 @@ const Home = (props) => {
 
                 <Heading class='text-center' heading='Our Menu' />
 
+                <div className='row'>
+                    <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+                        <MenuCard imageUrl={'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png'} heading={'Haircuts'} subHeading={'Lovely'} paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`} buttonLabel={'Read More'} />
+                    </div>
+                    <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+                        <MenuCard imageUrl={'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png'} heading={'Coloring'} subHeading={'Change'} paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`} buttonLabel={'Read More'} />
+                    </div>
+                    <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+                        <MenuCard imageUrl={'https://www.91-cdn.com/hub/wp-content/uploads/2024/04/iPhone-16-dummy-units-1.png'} heading={'Hairstyles'} subHeading={`Perfect`} paragraph={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`} buttonLabel={'Read More'} />
+                    </div>
+                </div>
+
                 {/* <LightBoxGallery images={imageSources} />
                 <div className='home-read-more'><a onClick={gotoHandler}>Read More...</a></div> */}
 
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'><img src={'menu/1.png'} alt='' className='img-responsive' /></div>
                     <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                         <h3 className='menu-h3'>HAIR SERVICES</h3>
@@ -106,9 +119,7 @@ const Home = (props) => {
                         <br />
                         <div className='home-read-more'><a onClick={gotoHandler}>Read More...</a></div>
                     </div>
-                </div>
-
-
+                </div> */}
 
             </div>
             <Testimonial />

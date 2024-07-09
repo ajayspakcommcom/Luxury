@@ -523,3 +523,218 @@ header.black-header .navbar-right {
 #myCarousel .carousel-indicators li.active {
     background-color: #c68e3f;
 }
+
+.card {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(199, 200, 204, 0.5);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card-button {
+    margin-top: 10px;
+}
+
+.card .card-sub-heading {
+    color: #000;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Caveat';
+    margin-top: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card .card-body {
+    padding: 0 15px 15px 15px;
+}
+
+.card .card-body p {
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.card .card-title {
+    color: #c68e3f !important;
+    font-family: 'Yeseva One';
+    letter-spacing: 1px;
+    font-size: 24px !important;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.card .btn {
+    border: 2px solid #c68e3f !important;
+    background-color: transparent !important;
+    color: #c68e3f !important;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.card .btn:hover {
+    background-color: #c68e3f !important;
+    color: #fff !important;
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        background-color: #000;
+    }
+
+    #testimonialCar .carousel-control.right .icon-arrow {
+        left: 0;
+    }
+
+    #testimonialCar .carousel-control.left .icon-arrow {
+        right: 0;
+    }
+
+    header .navbar .navbar-brand {
+        padding: 0 0;
+    }
+
+    .navbar-header button {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        width: 40px;
+        height: 10px;
+        background: transparent !important;
+    }
+
+    .navbar-header button span {
+        width: 100%;
+        height: 1px;
+        display: block;
+        background: #c68e3f;
+        border-radius: 50%;
+        margin-bottom: 5px;
+    }
+
+    [id="myNavbar"] {
+        background-color: #fff;
+        padding: 15px 15px 0 15px;
+    }
+
+    .navbar-right {
+        top: 0;
+        padding-left: 15px;
+    }
+
+    .navbar-brand {
+        float: none;
+        height: auto;
+    }
+
+    .nav>li {
+        margin-bottom: 15px;
+    }
+
+    .navbar-nav>li>a {
+        padding: 0 0;
+    }
+
+    .our-service-main-wrapper.home {
+        padding-bottom: 15px;
+    }
+
+    footer .table {
+        margin-bottom: 0;
+    }
+
+    #myCarousel {
+        bottom: 0;
+        height: auto;
+        min-height: auto;
+    }
+
+    #myCarousel .carousel-inner,
+    #myCarousel .carousel-inner>.item,
+    #myCarousel .carousel-inner>.item>img {
+        min-height: auto;
+    }
+
+    #myCarousel .carousel-caption {
+        display: none;
+    }
+
+    .our-service-main-wrapper h2 {
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    .get-in-touch {
+        padding: 20px 0;
+    }
+
+    .about-wrapper {
+        padding: 15px 0 0 0;
+    }
+
+    .ABOUT-CONTENT-WRAPPER {
+        padding: 0 0;
+    }
+
+    .hair-care-style,
+    .waxing-hair-removal,
+    .massage-body-treatment,
+    .skin-facial-treatment,
+    .nail-lash-service,
+    .makeup-bridal-service {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    header.black-header .navbar-right {
+        padding-left: 15px;
+        top: 0;
+    }
+
+    header.black-header {
+        height: 90px;
+    }
+
+    .testimonials-wrapper {
+        padding: 20px 0;
+    }
+
+    .quote-wrapper {
+        display: none;
+    }
+
+    .testimonials-wrapper h2 {
+        margin-bottom: 15px;
+    }
+
+
+}
