@@ -5,15 +5,25 @@ import MenuCard from '../MenuCard/MenuCard';
 import { owlCarouselDataList } from '../../utility/AppData';
 
 
+
 const CustomOwlCarousel = () => {
 
     const menuItems = [...owlCarouselDataList];
+
+    const navPrevText = `<span><img src=${process.env.PUBLIC_URL}/icons/left.png className='icon-arrow' /></span>`;
+    const navNextText = `<span><img src=${process.env.PUBLIC_URL}/icons/right.png className='icon-arrow' /></span>`;
+
+
     const owlOptions = {
         items: 3,
         loop: true,
         nav: true,
-        dots: false, // Disable dots
-        // Other options as needed
+        dots: false,
+        margin: 15,
+        navText: [
+            navPrevText,
+            navNextText
+        ]
     };
 
 

@@ -9,7 +9,7 @@ const Links = ({ classLink, isSocialVisible = false }) => {
     return (
         <>
             <ul className={classes}>
-                {HeaderData.map((item) => <li key={item.id}><Link to={`${item.url}`} className="navbar-brand">{item.text}</Link></li>)}
+                {HeaderData.map((item) => <li key={item.id}><Link to={`${item.url}`} className="navbar-brand"><span>{item.text}</span></Link></li>)}
                 {
                     isSocialVisible &&
                     <>
