@@ -1,38 +1,64 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Carousel from '../../components/Carousel/Carousel';
 import CarouselData from '../../content/data/carousel.json';
 import GetInTouchForm from '../../components/Utilities/GetInTouchForm';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import Heading from '../../components/Utilities/Heading';
 import { useNavigate } from 'react-router-dom';
-import LightBoxGallery from '../../components/LightBoxGallery/LightBoxGallery';
-import MenuCard from '../../components/MenuCard/MenuCard';
 import CustomOwlCarousel from '../../components/CustomOwlCarousel/CustomOwlCarousel';
-
-
-const serviceList = [
-    { id: 1 },
-    { id: 2 },
-    { id: 3 },
-    { id: 4 }
-];
-
+import { FaArrowDown } from 'react-icons/fa';
 
 const Home = (props) => {
 
-    const [service, setService] = useState(serviceList);
     const navigate = useNavigate();
+    const [isVisible, setIsVisible] = useState(true);
 
     const gotoHandler = () => {
         navigate('/menu');
+    };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+            const visibleThreshold = 100; // Adjust as needed
+
+            if (currentScrollY > visibleThreshold) {
+                setIsVisible(false);
+            } else {
+                setIsVisible(true);
+            }
+        };
+
+        // Event listener for scroll
+        window.addEventListener('scroll', handleScroll);
+
+        // Clean up event listener
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+
+        if (section) {
+            window.scrollTo({
+                top: section.offsetTop,
+                behavior: 'smooth' // Smooth scroll animation
+            });
+        }
     };
 
     const imageSources = ['pdf/1.png', 'pdf/2.png', 'pdf/3.png', 'pdf/4.png', 'pdf/5.png', 'pdf/7.png'];
 
     return (
         <>
-            <Carousel id="myCarousel" carouselData={CarouselData} prevText="Prev" nextText="Next" />
-            <div className='container our-service-main-wrapper home'>
+            <div className='car-wrapper'>
+                <Carousel id="myCarousel" carouselData={CarouselData} prevText="Prev" nextText="Next" />
+                <span className={`down-arrow ${isVisible ? '' : 'hidden'}`} onClick={() => scrollToSection('service')}><FaArrowDown /></span>
+            </div>
+
+
+
+            <div className='container our-service-main-wrapper home' id='service'>
 
                 <Heading class='text-center' heading='Our Services' />
 

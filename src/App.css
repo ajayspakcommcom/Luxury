@@ -11,7 +11,7 @@ header {
     z-index: 9999;
     position: relative;
     height: 100px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .navbar {
@@ -511,7 +511,11 @@ header.black-header .navbar-right {
     top: 8px;
     left: auto;
     right: 0;
-    color: #000;
+    color: #c68e3f;
+    border-top: 16px dashed;
+    border-top: 4px solid\9;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
 }
 
 
@@ -678,6 +682,54 @@ header.black-header .navbar-right {
 
 .owl-carousel .owl-item {
     min-height: 420px;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+    bottom: 10%;
+}
+
+.car-wrapper {
+    position: relative;
+}
+
+@keyframes upAndDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+.car-wrapper>span {
+    position: absolute;
+    bottom: 100px;
+    z-index: 1;
+    bottom: 120px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.car-wrapper>span>svg {
+    color: #fff;
+    animation: upAndDown 1s infinite;
 }
 
 
